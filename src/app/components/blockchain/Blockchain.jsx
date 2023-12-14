@@ -10,16 +10,17 @@ export default function Blockchain() {
                             <span className="mangoname">MangoBlockchain</span>
 
                         </h1>
-                        <p className="text-sm md:text-sm lg:text-lg mt-9">Blockchain technology is the foundation of Web3. It's a decentralized and secure way of recording transactions and data, offering transparency and trust in a <span className="mangoborder"> digital world.</span> </p>
-                        <p className="text-sm md:text-sm lg:text-lg mt-9">
+                        <p className="text-sm md:text-sm lg:text-lg mt-9">Mango Smart Chain: Empowering DeFi Innovation for Transparent and Secure Transactions. Explore Real-time Insights with<span className="mangoborder">  Mango Scan!</span> </p>
+                        {/* <p className="text-sm md:text-sm lg:text-lg mt-9">Blockchain technology is the foundation of Web3. It's a decentralized and secure way of recording transactions and data, offering transparency and trust in a <span className="mangoborder"> digital world.</span> </p> */}
+                        {/* <p className="text-sm md:text-sm lg:text-lg mt-9">
                             Mango Smart Chain is your bridge to the world of decentralized finance <b style={{ fontWeight: 'bolder' }} className="mangocolor">(DeFi).</b> It's a blockchain network that powers innovative financial applications, providing users with control over their assets and financial operations.
-                        </p>
-                        <p className="text-sm md:text-sm lg:text-lg mt-9">
+                        </p> */}
+                        {/* <p className="text-sm md:text-sm lg:text-lg mt-9">
                         Technology provides a secure and decentralized data ledger, distributed across a global network, enabling transparent and immutable transactions and data storage. Renowned for supporting cryptocurrencies, its versatile applications span from executing smart contracts to enhancing supply chain transparency.
                         </p>
                         <p className="text-sm md:text-sm lg:text-lg mt-9">
                             For real-time insights into the <span className="mangoname">Mango Hyper Chain,</span> check out Mango Scan
-                        </p>
+                        </p> */}
                         <a href="https://mangoscan.io/" target="_blank">
                         <button className="button mt-7 w-[80%] md:w-[40%]" type="button">
                             Explore MangoScan

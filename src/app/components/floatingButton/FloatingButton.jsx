@@ -42,7 +42,7 @@ export default function FloatingButton() {
   
                       {/* <span class="tooltip"><a href='https://pancakeswap.finance/swap?outputCurrency=0x9767c8E438Aa18f550208e6d1fDf5f43541cC2c8' target='_blank'>Buy Now</a></span> */}
                       <span className='spean'>
-                      <a  href='https://pancakeswap.finance/swap?outputCurrency=0x9767c8E438Aa18f550208e6d1fDf5f43541cC2c8' target="_blank" style={{}} className="text">Buy Now</a>
+                      <a  href='https://pancakeswap.finance/swap?outputCurrency=0x9767c8E438Aa18f550208e6d1fDf5f43541cC2c8' target="_blank" style={{color:'antiquewhite'}} className="text">Buy Now</a>
                       </span>
                   </div>
                     </button>

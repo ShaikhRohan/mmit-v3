@@ -10,6 +10,8 @@ import Img1F from "../../assets/images/1,.png"
 import Img2F from "../../assets/images/2,.png"
 import Img3F from "../../assets/images/3,.png"
 import Img4F from "../../assets/images/4,.png"
+import Img5F from "../../assets/images/4,.png"
+import Img6F from "../../assets/images/4,.png"
 
 export default function BlogCard() {
 
@@ -35,7 +37,7 @@ export default function BlogCard() {
                                     onClick={() => handleClick(val)}>
                                     <div className="rounded-2xl overflow-hidden">
                                         <div>
-                                            <Image src={val?.id == 1 && Img1F || val?.id == 2 && Img2F || val?.id == 3 && Img3F || val?.id == 4 && Img4F} />
+                                            <Image src={val?.id == 1 && Img1F || val?.id == 2 && Img2F || val?.id == 3 && Img3F || val?.id == 4 && Img4F || val?.id == 5 && Img5F || val?.id == 6 && Img6F} />
                                         </div>
                                         <div className="py-4 px-5 flex blog-card-bg h-[180px] gap-2">
                                             <p className="blog-card-detail global-font">

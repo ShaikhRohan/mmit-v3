@@ -23,6 +23,10 @@ import Img3F from "../../assets/images/3,.png"
 import Img3S from "../../assets/images/3.png"
 import Img4F from "../../assets/images/4,.png"
 import Img4S from "../../assets/images/4.png"
+import Img5F from "../../assets/images/4,.png"
+import Img5S from "../../assets/images/4.png"
+import Img6F from "../../assets/images/4,.png"
+import Img6S from "../../assets/images/4.png"
 
 export default function page({ searchParams }) {
 
@@ -178,7 +182,7 @@ export default function page({ searchParams }) {
                 </div>
                 <div className="w-[40%] max-[800px]:w-[100%] max-[800px]:mt-6">
                     <div className="rounded-2xl overflow-hidden w-full" >
-                        <Image width="100%" height="100%" src={selectedBlogData?.id == 1 && Img1F || selectedBlogData?.id == 2 && Img2F || selectedBlogData?.id == 3 && Img3F || selectedBlogData?.id == 4 && Img4F} />
+                        <Image width="100%" height="100%" src={selectedBlogData?.id == 1 && Img1F || selectedBlogData?.id == 2 && Img2F || selectedBlogData?.id == 3 && Img3F || selectedBlogData?.id == 4 && Img4F || selectedBlogData?.id == 5 && Img5F || selectedBlogData?.id == 6 && Img6F} />
                     </div>
                 </div>
             </div>
@@ -242,7 +246,7 @@ export default function page({ searchParams }) {
             </div>
             <div className="px-16 max-[410px]:px-4 my-8">
                 <div className="w-[100%] img-100">
-                    <Image className="img-100" width={"100%"} src={selectedBlogData?.id == 1 && Img1S || selectedBlogData?.id == 2 && Img2S || selectedBlogData?.id == 3 && Img3S || selectedBlogData?.id == 4 && Img4S} />
+                    <Image className="img-100" width={"100%"} src={selectedBlogData?.id == 1 && Img1S || selectedBlogData?.id == 2 && Img2S || selectedBlogData?.id == 3 && Img3S || selectedBlogData?.id == 4 && Img4S || selectedBlogData?.id == 5 && Img5S || selectedBlogData?.id == 6 && Img6S} />
                 </div>
             </div>
             <div className="px-16 max-[410px]:px-4">

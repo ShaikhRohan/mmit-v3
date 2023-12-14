@@ -39,7 +39,7 @@ export default function Subscribe() {
                     <h1 style={{lineHeight:'normal'}} className="text-[19px]  md:text-5xl lg:text-5xl text-[white] font-bold mt-5 md:text-[40px]">
                         subscribe to our newsletter today!
                     </h1>
-                    <p className="paras mb-10">MMIT is the First Fruit Meme Token and it is deployed on Binance Smart Chain.</p>
+                    {/* <p className="paras mb-10">MMIT is the First Fruit Meme Token and it is deployed on Binance Smart Chain.</p> */}
                     <form style={{ marginLeft: 'auto', marginRight: 'auto' }} className="w-[80%] mb-5">
                         <label
                             htmlFor="subscribe"
